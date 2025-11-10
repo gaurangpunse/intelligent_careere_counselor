@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e
 
-echo "🚀 Setting up Flutter for Vercel..."
+echo "🚀 Setting up Flutter 3.35.7 for Vercel..."
 
-# Download and extract Flutter SDK
-curl -fsSL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.0-stable.tar.xz | tar -xJf -
+# Download and extract Flutter SDK (version 3.35.7)
+curl -fsSL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.35.7-stable.tar.xz | tar -xJf -
 
 # Add Flutter to PATH
 export PATH="$PATH:`pwd`/flutter/bin"
