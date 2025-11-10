@@ -9,13 +9,13 @@ curl -fsSL https://storage.googleapis.com/flutter_infra_release/releases/stable/
 # Add Flutter to PATH
 export PATH="$PATH:`pwd`/flutter/bin"
 
-# Verify installation
+# Verify Flutter installation
 flutter doctor
 
 # Get dependencies
 flutter pub get
 
-# Build the Flutter web release
+# Build Flutter web
 flutter build web --release
 
 echo "✅ Flutter Web build complete!"
